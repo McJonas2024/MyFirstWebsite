@@ -1,0 +1,85 @@
+body {
+background-image: url(backgroundMain.jpg);
+background-size: cover;
+}
+
+h3 {
+color: orangered;
+cursor: pointer;
+}
+
+h1 {
+color: mediumvioletred;
+text-align: center;
+border: 6px solid rgb(100, 43, 30);
+}
+
+li {
+list-style: none;
+display: block;
+}
+/*class*/
+.webline {border: 5px groove purple;
+}
+
+.active {
+text-align: center;
+}
+
+.list {
+border: 3px solid rosybrown;
+}
+
+/*id*/
+#div1 {
+background: rgba(0, 0, 255, 0.2);
+}
+
+#div2 {
+background: rgba(255, 0, 0, 0.2);
+}
+
+.newstyle {
+line-height: 30px;
+text-decoration: underline;
+text-transform: lowercase;
+font-style: italic;
+font-weight: bold;
+font-size: 90%;
+font-family: "Times New Roman", Georgia, sans-serif;
+/*you can use google fonts to add custom fonts, but be aware that it will 
+your site a bit slower*/
+}
+
+img{
+float: left;
+}
+
+footer{
+clear: both;
+text-align: center;
+line-height: 10px;
+font-style: italic;
+}
+
+/*This property above will make sure your footer is truly at the bottom of your page*/
+/*Developer Notes*/
+/*CSS is encapsulated in 
+Selector{
+property:  value;
+}*/
+
+/*for full CSS properties visit css-tricks.com. 
+Remember, CSS means Cascading Style Sheet, which means it recognises the LAST command, a bit like 'Obey The Last Command'*/
+
+/*At menu Almanac, you have all the CSS properties listed*/
+
+/*For best colour combinations go to paletton.com*/
+
+/*for great free images visit unsplash.com*/
+
+/*Most Important Selectors:  .class, #id, *, element, element, element,
+element element, element > element, element + element, :hover, :last-child,
+:first-child*/
+
+
