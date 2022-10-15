@@ -1,0 +1,9 @@
+.boxmodel{
+margin: 20%;
+border: 15px solid mediumpurple;
+padding: 50%;
+}
+
+a{
+text-decoration: none;
+}
