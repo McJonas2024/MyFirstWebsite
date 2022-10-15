@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Registration FORM</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div>
+<form method="GET"> 
+First Name: <input type="Text" name="firstname"><br>
+Last Name: <input type="Text" name="lastname"><br>
+Email: <input type="email" name="email"required><br>
+Password: <input type="password" name="password"min="7"><br>
+Birthday: <input type="date" name="birthday"><br>
+Gender: <br>
+<input type="radio" name="Gender" value="Male">Male<br>
+<input type="radio" name="Gender" value="Female">Female<br>
+<input type="radio" name="Gender" value="Other">Other<br>
+Pets: <br>
+<input type="checkbox" name="cat">Cat<br>
+<input type="checkbox" name="dogs">Dogs<br>
+<input type="checkbox" name="other">Other<br>
+Cars: <br>
+<select name="cars">
+<option value="BMW">BMW</option>
+<option value="Merc">Merc</option>
+<option value="Nissan">Nissan</option>
+<option value="Honda">Honda</option>
+<option value="Volvo">Volvo</option>
+<option value="Other">Other</option>
+</select><br>
+
+<input type="submit" value="Register"><br>
+<input type="reset" name=""><br>
+</form>
+</div>
+<hr>
+<a href="index.html">Home</a>
+<!---Developer Notes--->
+<!---required is an attribute that doesn't allow u to continue unless u enter ur email--->
+<!---Reset attribute will give you opportunity to reset the form if u entered wrong data--->
+<!--- for more info about forms <a href="https://www.w3schools.com/html/html_forms.asp">forms</a>--->
+
+<!---The name attribute in gender makes the radio to know that only one choice can be selected --->
+
+<!---The select tag gives us a drop down menu with different options of CARS or anything else--->
+
+<!---In the password attribute you can enter min which is the minumum characters required to form ur password--->
+<!---?firstname=John
+	&lastname=Doe
+	&email=frontendd2%40gmail.com
+	&password=1234
+	&birthday=1980-10-10
+	&Gender=Male
+	&cat=on
+	&dogs=on&
+	cars=Nissan--->
+	<!--- This is the completed form and it gets sent to backend once u hit register, It starts with ? because its called query string as it sends info to backend server. The GET attribute on form does this but HTML5 does it automatically. You can also use POST instead of GET so that the info is attached to the body instead of the bar so someone would not just see your password on the bar --->
+
+	<!--The <div> tag defines a division or a section in an HTML document.It is used as a container for HTML elements - which is then styled with CSS or manipulated with JavaScript.-->
+
+	<!-- The <span> tag is much like the <div> element, but <div> is a block-level element and <span> is an inline element. -->
+
+	<!-- ctrl / will give you this easily-->
+
+	<!--- Question for Andrei: I entered min="7", choose 4 characters as password but was allowed, why?--->
+
+	<!-- To view source code on windows 10 click Ctrl+U -->
+	
+	<!-- lorem tab will give you a paragraph of lorem ipsom -->
+
+</body>
+</html>
